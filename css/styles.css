@@ -267,10 +267,6 @@ img {
   background-color: var(--team-bg-color);
 }
 
-.team-img {
-  margin-bottom: 30px;
-}
-
 .team-title {
   font-weight: bold;
   font-size: 36px;
@@ -280,12 +276,8 @@ img {
   margin-bottom: 50px;
 }
 
-.name {
-  margin-bottom: 10px;
-}
-
-.position {
-  margin-bottom: 30px;
+.team-content {
+  padding: 30px 50px;
 }
 
 .team-list {
@@ -309,6 +301,7 @@ img {
   line-height: 1.18;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .team-item .position {
@@ -420,9 +413,6 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
-
-  padding-top: 20px;
-  padding-left: 24px;
   margin-bottom: 4px;
 }
 
@@ -431,9 +421,6 @@ img {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-
-  padding-bottom: 20px;
-  padding-left: 24px;
 }
 
 .projects-list {
@@ -453,6 +440,8 @@ img {
 }
 
 .card-content {
+  padding: 20px 24px;
+
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
